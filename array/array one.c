@@ -1,8 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int num[]={10,2,15,20,35,46,65};
-    int value,pos=-1,i;
+    int num[1000];
+    int value,i,n;
+    printf("How many value you want to take: ");
+    scanf("%d",&n);
+    printf("Enter your array element: ");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&num[i]);
+    }
     printf("Enter the value you want to search : ");
     scanf("%d",&value);
     for(i=0;i<7;i++)
