@@ -2,7 +2,7 @@
 int main()
 {
     int arr[]={10,20,15,45,55},n,i;
-    printf("enter index =");
+    printf("Enter possition =");
     scanf("%d",&n);
     n=n-1;
     for(i=0;i<5;i++)

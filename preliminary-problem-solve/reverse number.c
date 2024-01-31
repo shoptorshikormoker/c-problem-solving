@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -13,5 +14,4 @@ int main()
         temp=temp/10;
 
     }
-    printf("sum of digits:%d\n",sum);
 }
