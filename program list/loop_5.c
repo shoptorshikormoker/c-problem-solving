@@ -2,8 +2,14 @@
 int main()
 {
     int row, col,n;
-    for(row=1; row<=n; n++)
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    for(row=1; row<=n; row++)
     {
-        printf("n++");
+        for(col=1; col<=n; col++){
+            printf("%d\t", row*col);
+        }
+
+        printf("\n");
     }
 }

@@ -3,11 +3,11 @@
 int main()
 
 {
-   int i,sum=0,previousNum=7;
+   int i,sum=0,nextNum=7;
    for(i=1;i<=100;i++)
    {
-       sum = sum + previousNum;
-       previousNum = previousNum+13;
+       sum = sum + nextNum;
+       nextNum = nextNum+13;
    }
     printf("sum = %d\n", sum);
 
